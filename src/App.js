@@ -5,22 +5,13 @@ import {
   Route,
   Link } from "react-router"
 //*Componentes
-import Home from './components/home';
-import Documentation from './components/Documentation';
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
 
 function App() {
   return (
     <div className="App">
-      <Home>
-        <Switch>
-            <Route exact path='/'>
-                <Home/>
-            </Route>
-            <Route exact path='/Documentation'>
-                <Documentation/>
-            </Route>
-        </Switch>
-      </Home>
+      <Home/>
     </div>
   );
 }
