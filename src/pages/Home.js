@@ -4,6 +4,9 @@ import Paper from '@material-ui/core/Paper'
 
 //*Componentes
 import Navbar from '../components/Navbar'
+import TodoForm from './TodoForm'
+import Todo from '../components/ToDo'
+
 export default class Home extends Component {
 
     constructor(){
@@ -30,6 +33,8 @@ export default class Home extends Component {
                     <h1>{this.state.usuario}</h1>
                     <h1>Home</h1>
                     <button onClick={this.cambiarNombre}>Cambiar Nombre</button>
+                    <TodoForm/>
+                    <ToDo/>
                 </Paper>
 
             </div>
