@@ -5,7 +5,7 @@ import Paper from '@material-ui/core/Paper'
 //*Componentes
 import Navbar from '../components/Navbar'
 import TodoForm from './TodoForm'
-import Todo from '../components/ToDo'
+import ToDo from '../components/ToDo'
 
 export default class Home extends Component {
 
